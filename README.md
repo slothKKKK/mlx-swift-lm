@@ -1,7 +1,7 @@
 # MLX Swift LM
 
 MLX Swift LM is a Swift package to build tools and applications with large
-language models (LLMs) and vision language models (VLMs) in [MLX Swift](https://github.com/ml-explore/mlx-swift).
+language models (LLMs) and vision language models (VLMs) in [MLX Swift](https://github.com/slothKKKK/mlx-swift).
 
 Some key features include:
 
@@ -10,7 +10,7 @@ Some key features include:
 - Many model architectures for both LLMs and VLMs.
 
 For some example applications and tools that use MLX Swift LM check out
-the [MLX Swift Examples](https://github.com/ml-explore/mlx-swift-examples).
+the [MLX Swift Examples](https://github.com/slothKKKK/mlx-swift-examples).
 
 # Using MLX Swift LM
 
@@ -20,13 +20,13 @@ as Swift Packages.
 Add the following dependency to your Package.swift:
 
 ```swift
-.package(url: "https://github.com/ml-explore/mlx-swift-lm/", branch: "main"),
+.package(url: "https://github.com/slothKKKK/mlx-swift-lm/", branch: "main"),
 ```
 
 or use the latest release:
 
 ```swift
-.package(url: "https://github.com/ml-explore/mlx-swift-lm/", .upToNextMinor(from: "2.29.1")),
+.package(url: "https://github.com/slothKKKK/mlx-swift-lm/", .upToNextMinor(from: "2.29.1")),
 ```
 
 Then add one or more libraries to the target as a dependency:
